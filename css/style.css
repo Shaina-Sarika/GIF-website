@@ -1,0 +1,65 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.home_img {
+    width: 100%;
+    height: auto;
+}
+.container1 {
+    position: relative;
+    color: white;
+    font-family: 'Antonio', sans-serif;
+  }
+  
+.intro_txt1 {
+    font-size: 450%;
+    line-height: 140%;
+    opacity: 75%;
+    position: absolute;
+    bottom: 48%;
+    left: 7.5%;
+  }
+  
+  .intro_txt2 {
+    font-size: 200%;
+    opacity: 75%;
+    position: absolute;
+    bottom: 29%;
+    left: 7.5%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px; 
+    box-sizing: border-box;
+  }
+  
+  .yellow {
+    background-color: #ffde59;
+    color: #001b53;
+    font-size: 180%;
+    font-weight: bold;
+    padding: 6% 10%;
+    text-align: center;
+  }
+
+  .stats {
+    color: #120052;
+    padding: 3% 10%;
+   
+  }
+.stats1 {
+    font-size: 370%;
+    font-weight: bold;
+}
+.stats2 {
+    font-size: 180%;
+}
+.stats td {
+    padding: 20px; 
+}
+.stats td:nth-child(1) {
+    padding-left: 90px; 
+}
+.stats td:nth-child(2) {
+    padding-left: 370px; 
+}
