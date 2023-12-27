@@ -1,5 +1,11 @@
+*
+{
+padding:0;
+margin:0;
+}
 body
 {
+  overflow-x:hidden;
     margin: 0px;
     padding: 0px;
 }
@@ -15,6 +21,7 @@ body
   
 .intro_txt1 {
     font-size: 450%;
+    font-weight: bold;
     line-height: 140%;
     opacity: 75%;
     position: absolute;
@@ -63,3 +70,105 @@ body
 .stats td:nth-child(2) {
     padding-left: 370px; 
 }
+
+
+
+
+
+
+.section-container
+{
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+}
+.section-container .columns
+{
+flex:0 0 auto;
+width:50%;
+}
+.section-container .columns.image
+{
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+.section-container .columns.content .content-container
+{
+padding:40px 50px;
+}
+.section-container .columns.content .content-container
+{
+font-weight:700;
+font-size:25px;
+margin-bottom:20px;
+}
+.section-container .columns.content .content-container p
+{
+font-weight:400;
+font-family: 'Antonio', sans-serif;
+font-size: 100%;
+margin-bottom:20px;
+margin-bottom:15px;
+text-align:justify;
+}
+.txtlight {
+  font-weight: bold;
+}
+@media screen and (max-width:767px)
+{
+.section-container
+{
+flex-flow:row wrap;
+}
+.section-container .columns.image{
+display:block;
+order:1;
+width:100%;
+height:250px;
+}
+.section-container .columns.content
+{
+display:block;
+order:2;
+width:100%;
+}
+.section-container .columns.content .content-container
+{
+padding:20px 35px;
+}
+.section-container .columns.content .content-container
+{
+margin-bottom:5px;
+}
+}
+
+
+.layout6 {
+  position: relative;
+}
+.layout6_img {
+  padding-top: 2%;
+  width: 100vw;
+  height: auto;
+  
+}
+.layout6 a{
+  position: absolute;
+  bottom: 12%;
+  left: 10%;
+  color: #1F1F3D;
+  text-decoration: none;
+  padding: 0.7% 3.7%; 
+  border: 3px solid #1F1F3D;
+}
+.explore {
+  font-family: 'Antonio', sans-serif;
+  font-weight: bold;
+  border: #1F1F3D;
+  font-size: 180%;
+}
+
+
+
