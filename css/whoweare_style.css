@@ -73,7 +73,7 @@ body
     padding-right: 16%;
   }
   .section-container {
-    padding: 0 0 15% 10%;
+    padding: 0 0 2% 10%;
   }
   @media screen and (max-width:767px)
   {
@@ -102,4 +102,42 @@ body
   margin-bottom:5px;
   }
   }
-  
+
+
+  /*Banner*/
+  .yellow {
+    background-color: #ffde59;
+    color: #001b53;
+    padding: 4% 10%;
+  }
+  .banner_heading {
+    font-family: 'Antonio', sans-serif;
+    font-size: 400%;
+  }
+  .banner_txt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140%;
+  }
+
+  /*Image Grid*/
+.gallery {
+	display: flex;
+}
+.gallery__column {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+.gallery__link {
+	margin: 1%;
+	overflow: hidden;
+}
+.gallery__thumb {
+	position: relative;
+}
+.gallery__image {
+	width: 100%;
+}
+.gallery__image:hover {
+	transform: scale(1.1);
+}
