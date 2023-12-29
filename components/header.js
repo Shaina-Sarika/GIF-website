@@ -41,10 +41,10 @@ class Header extends HTMLElement {
          <div class="collapse navbar-collapse" id="collapsibleNavbar">
            <ul class="navbar-nav">
              <li class="nav-item">
-               <a class="nav-link" href="#">Home</a>
+               <a class="nav-link" href="index.html">Home</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="#">Who We Are</a>
+               <a class="nav-link" href="whoweare.html">Who We Are</a>
              </li>
              <li class="nav-item">
                <a class="nav-link" href="#">What We Produce</a>

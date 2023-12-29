@@ -17,7 +17,7 @@ class Footer extends HTMLElement {
           .footer1 {
             color: #FFDE59;
             font-size: 180%;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'League Spartan', sans-serif;
             font-weight: bold;
             padding: 4%;
             margin-left: 2%;
@@ -46,7 +46,7 @@ class Footer extends HTMLElement {
           }
           .right-column h2 {
             margin-bottom: 10px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'League Spartan', sans-serif;
             font-weight: bold;
           }
           .right-column a {
@@ -79,8 +79,8 @@ class Footer extends HTMLElement {
    </div>
    <div class="container_footer">
       <div class="left-column">
-         <a href="#">Homepage</a>
-         <a href="#">Who we are</a>
+         <a href="index.html">Homepage</a>
+         <a href="whoweare.html">Who we are</a>
          <a href="#">What we produce</a>
          <a href="#">GIF Membership</a>
          <a href="#">Contact Us</a>
