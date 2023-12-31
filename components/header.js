@@ -47,7 +47,7 @@ class Header extends HTMLElement {
                <a class="nav-link" href="whoweare.html">Who We Are</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="#">What We Produce</a>
+               <a class="nav-link" href="whatweproduce.html">What We Produce</a>
              </li>
            </ul>
          </div>
