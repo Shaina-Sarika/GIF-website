@@ -12,25 +12,46 @@ body
 
 
 /*layout1*/
-h1 {
-    color: #120052;
-    font-family: 'League Spartan', sans-serif;
-    padding: 2vw 4vw;
+.layout1_image {
+    display: inline-block;
+    overflow: hidden;
 }
-.layout1 {
-    width: 90vw;
+.layout1_image img {
+    width: 47vw;
     height: auto;
-    background-color: #120052;
-    border-radius: 1.4vw; 
-    margin: 0 4vw;
-    padding: 4.4vw 5.8vw 4vw 3.2vw;  
-    color: white;
+}
+.layout1_intro {
+    display: inline-block;
+    overflow: hidden;
+    padding: 3vw 8vw 4vw 8vw;
+    width: 45vw;
+}
+.layout1_intro h1, .layout1_intro h3 {
+    font-family: 'League Spartan', sans-serif;
+    color: #120052;
+    text-align: center;
+}
+.layout1_intro h1 {
+    font-weight: bold;
+    font-size: 3vw;
+    padding: 0;
+    margin: 0;
+}
+.layout1_intro p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.6vw;
 }
 
 
 /*layout2*/
+.summits {
+    text-align: center;
+    color: #120052;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    padding: 4vw 0 0 0;
+    margin-bottom: 0;
+    font-size: 4.5vw;
+}
 .pic1 img{
     width:100vw;
     height:auto;
