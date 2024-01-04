@@ -1,0 +1,63 @@
+*
+{
+padding:0;
+margin:0;
+}
+body
+{
+  overflow-x:hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.membership {
+    display: inline-block;
+    width: 62vw;
+    height: auto;
+    padding: 0 2vw 0 2vw;
+    overflow: hidden;
+}
+.membership_heading {
+    font-family: 'League Spartan', sans-serif;
+    color: #F8C954;
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.membership_subheading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: white;
+}
+.mebership_txt {
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    
+}
+.boldtxt {
+    font-weight: 900 !important;
+}
+.comingsoon {
+    padding: 0.5vw 1.5vw;
+    color: white;
+    border: 3px solid #F8C954;
+    font-weight: bold;
+    display: inline-block;
+}
+.membership_img {
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 1vw;
+    top: 1vw;
+}
+.membership_img img {
+    width: 37vw;
+    height: auto;
+}
+.relative_div {
+    position: relative;
+}
