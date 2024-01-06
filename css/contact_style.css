@@ -1,0 +1,57 @@
+*
+{
+padding:0;
+margin:0;
+}
+body
+{
+  overflow-x:hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.contact_heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 3vw;
+}
+.contact_subheading {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 2vw;
+}
+.contact_div {
+  padding: 1vw 10vw 1.5vw 19vw;
+}
+.contact_form {
+  background-color: #FFF1CF;
+  margin-left: 16.5vw;
+  margin-right: 16.5vw;
+  height: auto;
+  position: relative;
+  width: 67vw;
+  height: auto;
+}
+.form_heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+  color: black;
+  padding: 2vw;
+  text-align: center;
+}
+.contact_img img {
+  width: 40vw;
+  height: auto;
+  padding: 0 0 1vw 3.5vw;
+}
+.form_txt {
+  position: absolute;
+}
+.single-line-input {
+  border: none;
+  border-bottom: 1px solid #F8C954;
+  background: transparent;
+  margin: 10px 0; /* Add margin for better spacing */
+  padding: 0;
+}

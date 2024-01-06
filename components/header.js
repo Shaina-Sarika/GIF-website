@@ -52,6 +52,9 @@ class Header extends HTMLElement {
              <li class="nav-item">
                <a class="nav-link" href="membership.html">GIF Membership</a>
              </li>
+             <li class="nav-item">
+               <a class="nav-link" href="contact.html">Contact Us</a>
+             </li>
            </ul>
          </div>
        </nav>

@@ -83,7 +83,7 @@ class Footer extends HTMLElement {
          <a href="whoweare.html">Who we are</a>
          <a href="whatweproduce.html">What we produce</a>
          <a href="membership.html">GIF Membership</a>
-         <a href="#">Contact Us</a>
+         <a href="contact.html">Contact Us</a>
        </div>
        <div class="right-column">
          <h2>CONNECT WITH US</h2>
