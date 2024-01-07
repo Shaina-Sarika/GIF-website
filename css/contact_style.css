@@ -47,6 +47,8 @@ body
 }
 .form_txt {
   position: absolute;
+  left: 5vw;
+  top: 10vw;
 }
 .single-line-input {
   border: none;
@@ -54,4 +56,52 @@ body
   background: transparent;
   margin: 10px 0; /* Add margin for better spacing */
   padding: 0;
+}
+.input-group {
+  display: flex;
+  font-size: 1.2vw;
+}
+.input-group label {
+  width: 10vw;
+  text-align: right;
+  margin: 0 6vw;
+}
+.input-group input {
+  flex: 1;
+}
+#firstname  {
+  margin-left: 10.2vw;
+}
+#name {
+  margin-left: 10.2vw;
+}
+.email-group, .msg-group {
+  padding-top: 4vw;
+}
+#email  {
+  margin-left: 10.2vw;
+}
+#email_label {
+  margin: 0 4vw;
+}
+#object {
+  margin-left: 10.2vw;
+}
+#object_label {
+  margin: 0 10.2vw;
+}
+#msg {
+  margin-left: 10.3vw;
+}
+#msg_label {
+  margin: 0 8.8vw;
+}
+#send {
+  margin: 6vw 25vw;
+  padding: 0.6vw 5vw;
+  cursor: pointer;
+  border: #F8C954;
+}
+#send:hover {
+  background-color: #F8C954;
 }

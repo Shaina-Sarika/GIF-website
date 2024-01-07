@@ -32,7 +32,43 @@
         <p class="form_heading">Contact Us</p>
         <img src="assets/images/telephone.png" alt="image">
     </div>
-    
+    <div class="form_txt">
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="First name">First name</label>
+                <br>
+                <label for="Name">Name</label>
+                <br>
+            </div>
+            <div class="input-group">
+                <input type="text" id="firstname" name="firstname" class="single-line-input">
+                <br> 
+                <input type="text" id="name" name="name" class="single-line-input">
+                <br>
+            </div>
+            <div class="input-group email-group">
+                <label for="email" id="email_label">E-mail*</label>
+                <br>
+                <label for="object" id="object_label">Object</label>
+                <br>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" name="email" class="single-line-input" required>
+                <br> 
+                <input type="text" id="object" name="object" class="single-line-input">
+                <br>
+            </div>
+            <div class="input-group msg-group">
+                <label for="msg" id="msg_label">Your message...*</label>
+                <br>
+            </div>
+            <div class="input-group">
+                <textarea class="single-line-input" id="msg" name="msg" rows="3" required></textarea>
+                <br> 
+            </div>
+            <input type="submit" value="Send" id="send">
+          </form>
+    </div>
 </div>
 
 
