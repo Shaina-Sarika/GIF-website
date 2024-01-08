@@ -11,6 +11,91 @@ body
 }
 
 /*layout1*/
+.layout1s {
+  position: relative;
+  width: 100vw;
+  height: 30vh;
+  overflow: hidden;
+}
+  .layout1s_heading {
+    color: #001B53;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2.8vw;
+    position: absolute;
+    padding: 1.2% 4.75%;
+  }
+  .layout1s_txt {
+    color: #001B53;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+    font-weight: bold;
+    position: absolute;
+    padding: 4% 12% 0 5%;
+  }
+  .sections-container
+  {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  }
+  .sections-container .columnss
+  {
+  flex:0 0 auto;
+  width:30vw;
+  }
+  .sections-container .columnss.images
+  {
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size: contain;
+  width: 30vw;
+  height: 25vw;
+  }
+  .contents-container {
+    width: 40vw;
+    height: auto;
+    padding-top: 2vw;
+  }
+  .sections-container .columnss.contents .contents-container p
+  {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+  }
+  .sections-container {
+    padding: 0 0 2% 10%;
+  }
+  @media screen and (max-width:767px)
+  {
+  .sections-container
+  {
+  flex-flow:row wrap;
+  }
+  .sections-container .columnss.images{
+  display:block;
+  order:1;
+  width:100%;
+  height:250px;
+  }
+  .sections-container .columnss.content
+  {
+  display:block;
+  order:2;
+  width:100%;
+  }
+  .sections-container .columnss.contents .contents-container
+  {
+  padding:20px 35px;
+  }
+  .sections-container .columnss.contents .contents-container
+  {
+  margin-bottom:5px;
+  }
+  }
+
+
+/*layout1*/
 .layout1 {
   position: relative;
   width: 100vw;
@@ -67,10 +152,6 @@ body
   {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 100%;
-  text-align:justify;
-  }
-  .content-container {
-    padding-right: 16%;
   }
   .section-container {
     padding: 0 0 2% 10%;
@@ -129,7 +210,8 @@ body
 	width: 25%;
 }
 .gallery__link {
-	margin: 1%;
+	margin: 0.6%;
+  margin-bottom: -3.5%;
 	overflow: hidden;
 }
 .gallery__thumb {

@@ -59,15 +59,14 @@ body
 .stats1 {
     font-size: 370%;
     font-weight: bold;
+    font-family: 'Antonio', sans-serif;
 }
 .stats2 {
     font-size: 180%;
-}
-.stats td {
-    padding: 20px; 
+    font-family: 'Antonio', sans-serif;
 }
 .stats td:nth-child(1) {
-    padding-left: 90px; 
+    padding-left: 1vw; 
 }
 .stats td:nth-child(2) {
     padding-left: 370px; 
@@ -109,7 +108,6 @@ font-weight:400;
 font-size: 100%;
 margin-bottom:20px;
 margin-bottom:15px;
-text-align:justify;
 }
 .txtlight {
   font-weight: bold;
