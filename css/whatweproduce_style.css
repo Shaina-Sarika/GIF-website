@@ -80,3 +80,23 @@ body
     display: inline-block;
     margin: 1vw 6vw 0.7vw 12vw;
 }
+
+
+/*scrolling animation*/
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
+  }
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+  @media(prefers-reduced-motion)
+  {
+    .hidden{
+      transition: none;
+    }
+  }

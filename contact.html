@@ -24,49 +24,49 @@
 <!--navbar-->
 <header-component></header-component>
 <div class="contact_div">
-    <p class="contact_heading">A question ? A project ?</p>
-    <p class="contact_subheading">Let’s make an appointment to discuss it!</p>
+    <p class="contact_heading hidden">A question ? A project ?</p>
+    <p class="contact_subheading hidden">Let’s make an appointment to discuss it!</p>
 </div>
 <div class="contact_form">
     <div class="contact_img">
-        <p class="form_heading">Contact Us</p>
+        <p class="form_heading hidden">Contact Us</p>
         <img src="assets/images/telephone.png" alt="image">
     </div>
     <div class="form_txt">
         <form action="#" method="post">
-            <div class="input-group">
+            <div class="input-group hidden">
                 <label for="First name">First name</label>
                 <br>
                 <label for="Name">Name</label>
                 <br>
             </div>
-            <div class="input-group">
+            <div class="input-group hidden">
                 <input type="text" id="firstname" name="firstname" class="single-line-input">
                 <br> 
                 <input type="text" id="name" name="name" class="single-line-input">
                 <br>
             </div>
-            <div class="input-group email-group">
+            <div class="input-group email-group hidden">
                 <label for="email" id="email_label">E-mail*</label>
                 <br>
                 <label for="object" id="object_label">Object</label>
                 <br>
             </div>
-            <div class="input-group">
+            <div class="input-group hidden">
                 <input type="email" id="email" name="email" class="single-line-input" required>
                 <br> 
                 <input type="text" id="object" name="object" class="single-line-input">
                 <br>
             </div>
-            <div class="input-group msg-group">
+            <div class="input-group msg-group hidden">
                 <label for="msg" id="msg_label">Your message...*</label>
                 <br>
             </div>
-            <div class="input-group">
+            <div class="input-group hidden">
                 <textarea class="single-line-input" id="msg" name="msg" rows="3" required></textarea>
                 <br> 
             </div>
-            <input type="submit" value="Send" id="send">
+            <input type="submit" value="Send" id="send" class="hidden">
           </form>
     </div>
 </div>
@@ -83,6 +83,6 @@
   <!--jquery link-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
   <!--javascript file link-->
-  <script src="index.js" charset="UTF-8"></script>
+  <script src="javascript/index.js" charset="UTF-8"></script>
 </body>
 </html> 
