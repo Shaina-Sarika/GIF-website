@@ -16,6 +16,7 @@ body
   width: 100vw;
   height: 30vh;
   overflow: hidden;
+  padding-top: 3vw;
 }
   .layout1s_heading {
     color: #001B53;
@@ -64,7 +65,7 @@ body
   font-size: 1vw;
   }
   .sections-container {
-    padding: 0 0 2% 10%;
+    padding: 3% 0 2% 10%;
   }
   @media screen and (max-width:767px)
   {
@@ -96,6 +97,7 @@ body
 
 
 /*layout1*/
+/*
 .layout1 {
   position: relative;
   width: 100vw;
@@ -183,7 +185,7 @@ body
   margin-bottom:5px;
   }
   }
-
+*/
 
   /*Banner*/
   .yellow {

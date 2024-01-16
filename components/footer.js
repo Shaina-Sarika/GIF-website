@@ -79,11 +79,11 @@ class Footer extends HTMLElement {
    </div>
    <div class="container_footer">
       <div class="left-column">
-         <a href="index.html">Homepage</a>
-         <a href="whoweare.html">Who we are</a>
-         <a href="whatweproduce.html">What we produce</a>
-         <a href="membership.html">GIF Membership</a>
-         <a href="contact.html">Contact Us</a>
+         <a href="index.html">HOMEPAGE</a>
+         <a href="whoweare.html">WHO WE ARE</a>
+         <a href="whatweproduce.html">WHAT WE PRODUCE</a>
+         <a href="membership.html">GIF MEMBERSHIP</a>
+         <a href="contact.html">CONTACT US</a>
        </div>
        <div class="right-column">
          <h2>CONNECT WITH US</h2>
