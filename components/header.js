@@ -16,6 +16,9 @@ class Header extends HTMLElement {
         #collapsibleNavbar {
           background-color: black; 
         }
+        .navbar-nav {
+         text-align: right;
+        }
         .navbar-nav .nav-link {
           color: white !important; /* Set the color of the links in the collapsed navbar to white */
         }
