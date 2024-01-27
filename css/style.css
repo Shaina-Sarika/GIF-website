@@ -20,6 +20,7 @@ body
     position: relative;
     color: white;
     font-family: 'Antonio', sans-serif;
+    padding-top: 5vw;
   }
 .intro_txt1 {
     font-size: 450%;

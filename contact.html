@@ -9,7 +9,7 @@
     <!--google fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Antonio&family=League+Spartan:wght@700&family=Montserrat:wght@700&family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio&family=League+Spartan:wght@700&family=Montserrat:wght@700&family=Space+Grotesk&display=swap&family=Alata&display=swap" rel="stylesheet">
     <!--css file link-->
     <link rel="stylesheet" href="css/contact_style.css">
     <!--font awesome link-->
@@ -23,6 +23,7 @@
 <body> 
 <!--navbar-->
 <header-component></header-component>
+<!--
 <div class="contact_div">
     <p class="contact_heading hidden">A question ? A project ?</p>
     <p class="contact_subheading hidden">Let’s make an appointment to discuss it!</p>
@@ -70,8 +71,104 @@
           </form>
     </div>
 </div>
+-->
 
-
+<div class="contact_img">
+    <img src="assets/images/contact_template.png" alt="image">
+</div>
+<div class="contact_heading">
+    <p class="hidden">CONTACT US</p>
+    <hr class="custom-hr hidden">
+</div>
+<hr class="hr_style">
+<div class="div1">
+    <div class="attend hidden">
+        <p>Attend</p>
+    </div>
+    <div class="text hidden">
+        <p>To request an invitation to attend a GIF<br>Summit event, please send a request<br>to us</p>
+    </div>
+    <div class="contact_link hidden">
+        <a href="#contact_form" class="invite">Request invite ↓</a>
+    </div>
+</div>
+<hr class="hr_style">
+<div class="div1">
+    <div class="press hidden">
+        <p>Press</p>
+    </div>
+    <div class="text2 hidden">
+        <p>For all press inquiries, please email<br>our PR team here</p>
+    </div>
+    <div class="contact_link hidden">
+        <a href="#contact_form" class="invite">Email PR Team ↓</a>
+    </div>
+</div>
+<hr class="hr_style">
+<div class="div1">
+    <div class="partnership hidden">
+        <p>Partnership &<br>Sponsorship Enquiries</p>
+    </div>
+    <div class="text3 hidden">
+        <p>To know more on the sponsorship<br>packages please write to our team</p>
+    </div>
+    <div class="contact_link hidden">
+        <a href="#contact_form" class="invite">Send a Request ↓</a>
+    </div>
+</div>
+<div class="contactform_heading hidden">
+    <h1>GET IN TOUCH</h1>
+    <p>Have an inquiry or some feedback for us?<br>Fill out the form below to contact out team.</p>
+</div>
+<div id="contact_form">
+    <form action="#" method="post">
+        <div class="input-group hidden">
+            <label for="First name">FIRST NAME</label>
+            <br>
+            <label for="Last Name" id="lastname_label">LAST NAME</label>
+            <br>
+        </div>
+        <div class="input-group hidden">
+            <input type="text" id="firstname" name="firstname" class="single-line-input">
+            <br> 
+            <input type="text" id="lastname" name="lastname" class="single-line-input">
+            <br>
+        </div>
+        <div class="input-group email-group hidden">
+            <label for="email" id="email_label">EMAIL*</label>
+            <br>
+            <label for="company" id="company_label">COMPANY</label>
+            <br>
+        </div>
+        <div class="input-group hidden">
+            <input type="email" id="email" name="email" class="single-line-input" required>
+            <br> 
+            <input type="text" id="company" name="company" class="single-line-input">
+            <br>
+        </div>
+        <div class="input-group sub-group hidden">
+            <label for="sub" id="sub_label">SUBJECT</label>
+            <br>
+        </div>
+        <div class="input-group hidden">
+            <input type="text" id="sub" name="sub" class="single-line-input">
+            <br> 
+        </div>
+        <div class="input-group msg-group hidden">
+            <label for="msg" id="msg_label">MESSAGE*</label>
+            <br>
+        </div>
+        <div class="input-group hidden">
+            <textarea class="single-line-input" id="msg" name="msg" rows="3" required></textarea>
+            <br> 
+        </div>
+        <div class="check hidden">
+            <input type="checkbox" id="check" checked>
+            <label for="check" id="check_label">Sign me up for email updates</label>
+        </div>
+        <input type="submit" value="Submit" id="send" class="hidden">
+      </form>
+</div>
 
 
 <!--footer-->

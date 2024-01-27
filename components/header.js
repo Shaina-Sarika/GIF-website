@@ -9,6 +9,9 @@ class Header extends HTMLElement {
         .navbar {
           background-color: black !important; 
           font-family: 'Antonio', sans-serif;
+          position: fixed;
+          width: 100%;
+          z-index: 1000;
         }
         .navbar-toggler {
           color: white !important;

@@ -66,70 +66,82 @@
 <div>
   <div class="gallery">
     <div class="gallery__column hidden">
-      <a href="#" target="_blank" class="gallery__link">
+      <a href="" target="" class="gallery__link">
         <figure class="gallery__thumb">
           <img src="assets/images/ig1.png" alt="picture" class="gallery__image">
+          <div class="gallery__text">Dive into insightful discussions led by industry experts, gaining valuable insights and staying ahead of the curve.</div>
         </figure>
       </a>
-      <a href="#" target="_blank" class="gallery__link">
+      <a href="" target="" class="gallery__link">
         <figure class="gallery__thumb">
           <img src="assets/images/ig2.png" alt="picture" class="gallery__image">
+          <div class="gallery__text">Connect with like-minded professionals, expanding your network and forging partnerships that matter.</div>
         </figure>
       </a>
-      <a href="#" target="_blank" class="gallery__link">
+      <a href="" target="" class="gallery__link">
         <figure class="gallery__thumb">
           <img src="assets/images/ig3.png" alt="picture" class="gallery__image">
+          <div class="gallery__text">Engage in dynamic conversations with thought leaders, exploring the latest trends and addressing pressing industry challenges.</div>
         </figure>
       </a>
     </div>
     <div class="gallery__column hidden">
-      <a href="#" target="_blank" class="gallery__link">
+      <a href="" target="" class="gallery__link">
         <figure class="gallery__thumb">
           <img src="assets/images/ig4.png" alt="picture" class="gallery__image">
+          <div class="gallery__text">Be inspired by influential speakers who share their expertise, offering perspectives that drive innovation and success.</div>
         </figure>
       </a>
-      <a href="#" target="_blank" class="gallery__link">
+      <a href="" target="" class="gallery__link">
         <figure class="gallery__thumb">
           <img src="assets/images/ig5.png" alt="picture" class="gallery__image" style="height: auto; width: 28rem;">
+          <div class="gallery__text">Immerse yourself in a showcase of cutting-edge products and services, fostering business development and innovation.</div>
         </figure>
       </a>
-      <a href="#" target="_blank" class="gallery__link">
+      <a href="" target="" class="gallery__link">
         <figure class="gallery__thumb">
           <img src="assets/images/ig6.png" alt="picture" class="gallery__image" style="height: 12.5rem; width:auto;">
+          <div class="gallery__text">Experience personalized connections, ensuring meaningful engagements that go beyond the surface.</div>
         </figure>
       </a>
     </div>
     <div class="gallery__column hidden">
-      <a href="#" target="_blank" class="gallery__link">
+      <a href="" target="" class="gallery__link">
         <figure class="gallery__thumb">
           <img src="assets/images/ig7.png" alt="picture" class="gallery__image">
+          <div class="gallery__text">Gain global perspectives and insights tailored to specific regions, unlocking opportunities on an international scale.</div>
         </figure>
       </a>
-      <a href="#" target="_blank" class="gallery__link">
+      <a href="" target="" class="gallery__link">
         <figure class="gallery__thumb">
           <img src="assets/images/ig8.png" alt="picture" class="gallery__image">
+          <div class="gallery__text">Witness groundbreaking moments as we unveil the latest innovations and offerings, setting the stage for success.</div>
         </figure>
       </a>
-      <a href="#" target="_blank" class="gallery__link">
+      <a href="" target="" class="gallery__link">
         <figure class="gallery__thumb">
           <img src="assets/images/ig9.png" alt="picture" class="gallery__image" style="height: auto; width:26.4rem;">
+          <div class="gallery__text">Master the art of turning ambition into action. Participate in immersive sessions that equip you with practical skills, actionable strategies, and the confidence to execute.</div>
         </figure>
       </a>
     </div>
     <div class="gallery__column hidden">
-      <a href="#" target="_blank" class="gallery__link">
+      <a href="" target="" class="gallery__link">
         <figure class="gallery__thumb">
           <img src="assets/images/ig10.png" alt="picture" class="gallery__image">
+          <div class="gallery__text">Learn from the best in the business. Renowned practitioners share their secrets, dissect case studies, and guide you towards mastery in your chosen field.</div>
         </figure>
       </a>              
-      <a href="#" target="_blank" class="gallery__link">
+      <a href="" target="" class="gallery__link">
         <figure class="gallery__thumb">
           <img src="assets/images/ig11.png" alt="picture" class="gallery__image">
+          <div class="gallery__text">Join intimate, closed-door discussions with industry heavyweights. Exchange ideas, solve real-world challenges, and forge powerful collaborations in a confidential setting.</div>
         </figure>
       </a>              
-      <a href="#" target="_blank" class="gallery__link">
+      <a href="" class="gallery__link">
         <figure class="gallery__thumb">
           <img src="assets/images/ig12.png" alt="picture" class="gallery__image">
+          <div class="gallery__text">Secure the resources to fuel your dreams. Present your ventures to a curated pool of investors, secure the funding you need, and watch your vision take flight.</div>
         </figure>
       </a>
     </div>
@@ -177,5 +189,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
   <!--javascript file link-->
   <script src="javascript/index.js" charset="UTF-8"></script>
+  <!--Prevent the default behavior of navigating to the top of the page on clicking the image grid links)-->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get all the gallery links
+      var galleryLinks = document.querySelectorAll('.gallery__link');
+      // Attach a click event listener to each link
+      galleryLinks.forEach(function(link) {
+        link.addEventListener('click', function(event) {
+          // Prevent the default behavior (navigating to the top of the page)
+          event.preventDefault();
+        });
+      });
+    });
+  </script>
 </body>
 </html>   

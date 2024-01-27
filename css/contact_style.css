@@ -3,6 +3,7 @@
 padding:0;
 margin:0;
 }
+/*
 body
 {
   overflow-x:hidden;
@@ -108,7 +109,7 @@ body
 #send:hover {
   background-color: #F8C954;
 }
-
+*/
 
 /*scrolling animation*/
 .hidden {
@@ -127,4 +128,201 @@ body
   .hidden{
     transition: none;
   }
+}
+
+
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.contact_img {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 4vw;
+}
+.contact_img img {
+  width: 100vw;
+}
+.contact_heading {
+  position: absolute;
+  top: 12.5vw;
+  left: 13vw;
+  font-size: 5.5vw;
+  font-family: 'Alata', sans-serif;
+  color: black;
+}
+.custom-hr {
+  height: 0.3vw; 
+  background-color: black; 
+  border: none;  
+  font-weight: bold; 
+  margin-top: 1.6vw;
+  width: 13vw;
+}
+.hr_style {
+  background-color: black;
+  height: 0.05vw;
+}
+.div1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3vw 6vw;
+}
+.attend {
+  display: inline-block;
+  padding-right: 25vw;
+  font-size: 2vw;
+  font-weight: bold;
+  vertical-align: top;
+}
+.text {
+  display: inline-block;
+  padding-right: 14vw;
+  font-size: 1.5vw;
+  vertical-align: top;
+}
+.contact_link {
+  display: inline-block;
+  font-size: 1.3vw;
+  padding-top: 1vw;
+}
+.invite {
+  border: 0.05vw solid #000;
+  padding: 0.8vw 1.9vw;
+  vertical-align: top;
+  color: #000;
+  transition: color 0.3s, background-color 0.3s;
+}
+.invite:hover {
+  color: #fff; 
+  background-color: #000;
+  text-decoration: none;
+}
+.press {
+  display: inline-block;
+  padding-right: 25.8vw;
+  font-size: 2vw;
+  font-weight: bold;
+  vertical-align: top;
+}
+.text2 {
+  display: inline-block;
+  padding-right: 16vw;
+  font-size: 1.5vw;
+  vertical-align: top;
+}
+.partnership {
+  display: inline-block;
+  padding-right: 9.2vw;
+  font-size: 2vw;
+  font-weight: bold;
+  vertical-align: top;
+}
+.text3 {
+  display: inline-block;
+  padding-right: 16.5vw;
+  font-size: 1.5vw;
+  vertical-align: top;
+}
+.contactform_heading {
+  text-align: center;
+  padding: 4vw;
+}
+.contactform_heading h1 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 4vw;
+}
+.contactform_heading p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6vw;
+}
+#contact_form {
+  padding: 0 10vw;
+  text-align: center;
+}
+.single-line-input {
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  margin: 10px 0;
+  padding: 0;
+}
+.input-group {
+  display: flex;
+  font-size: 1.2vw;
+}
+.input-group label {
+  width: 10vw;
+  text-align: right;
+  margin: 0 6vw;
+}
+.input-group input {
+  flex: 1;
+}
+#firstname  {
+  margin-left: 9.6vw;
+  margin-right: 8vw;
+}
+#lastname {
+  margin-right: 9vw;
+}
+#lastname_label {
+  margin-left: 18vw;
+}
+.email-group, .sub-group {
+  padding-top: 4vw;
+}
+#email  {
+  margin-left: 9.6vw;
+  margin-right: 8vw;
+}
+#email_label {
+  margin: 0 3.3vw;
+}
+#company {
+  margin-right: 9vw;
+}
+#company_label {
+  margin-left: 22.7vw;
+}
+#sub {
+  margin-left: 9.6vw;
+  margin-right: 9vw;
+}
+#sub_label {
+  margin: 0 4.1vw;
+}
+#msg {
+  margin-left: 9.6vw;
+  width: 60.5vw;
+}
+#msg_label {
+  padding-top: 4vw;
+  margin: 0 5.15vw;
+}
+.check {
+  text-align: left;
+}
+#check {
+  margin-left: 9.6vw;
+  transform: scale(1.5);
+}
+#check_label {
+  padding-top: 4vw;
+  margin-left: 1vw;
+  font-size: 1.4vw;
+}
+#send {
+  margin: 6vw 25vw;
+  padding: 0.6vw 5vw;
+  cursor: pointer;
+  border: black;
+  transition: color 0.3s, background-color 0.3s;
+}
+#send:hover {
+  background-color: black;
+  color: white;
 }
