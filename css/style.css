@@ -148,7 +148,7 @@ margin-bottom:5px;
 }
 }
 @media screen and (max-width:1165px){
-  .section-container .columns.content .content-container p
+.columns
 {
 font-weight:200;
 font-size: 1vw;
