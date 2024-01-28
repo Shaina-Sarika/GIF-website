@@ -23,25 +23,32 @@ body
     padding-top: 5vw;
   }
 .intro_txt1 {
-    font-size: 450%;
+    font-size: 4.7vw;
     font-weight: bold;
-    line-height: 140%;
+    line-height: 6.8vw;
     opacity: 75%;
     position: absolute;
-    bottom: 48%;
-    left: 7.5%;
+    bottom: 28vw;
+    left: 7.3vw;
   }
   .intro_txt2 {
-    font-size: 200%;
+    font-size: 2vw;
     opacity: 75%;
     position: absolute;
-    bottom: 29%;
-    left: 7.5%;
+    bottom: 17vw;
+    left: 7.3vw;
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 10px; 
+    padding: 0.8vw; 
     box-sizing: border-box;
   }
-
+ @media screen and (max-width:900px) {
+  .intro_txt1 {
+    bottom: 15vw;
+  }
+  .intro_txt2 {
+    bottom: 4vw;
+  } 
+ }
 
   /*layout 2*/
   .yellow {
@@ -140,7 +147,13 @@ padding:20px 35px;
 margin-bottom:5px;
 }
 }
-
+@media screen and (max-width:1165px){
+  .section-container .columns.content .content-container p
+{
+font-weight:200;
+font-size: 1vw;
+}
+}
 
 /*layout 6*/
 .layout6 {
