@@ -24,7 +24,7 @@ body
 .layout1_intro {
     display: inline-block;
     overflow: hidden;
-    padding: 3vw 8vw 4vw 8vw;
+    padding: 10vw 8vw 4vw 8vw;
     width: 45vw;
 }
 .layout1_intro h1, .layout1_intro h3 {
@@ -79,7 +79,7 @@ body
 }
 .impact {
     display: inline-block;
-    margin: 1vw 6vw 0.7vw 12vw;
+    margin: 1vw auto 0.7vw 12vw;
 }
 .impact2 {
     overflow: hidden;
@@ -98,6 +98,20 @@ body
 }
 .objective5 {
     overflow: hidden;
+}
+@media screen and (max-width:1215px) and (min-width: 1056px) {
+    .impact {
+        margin: 1vw auto 0.7vw 1vw;
+    }
+}
+@media screen and (max-width:1056px) {
+    .objective {
+        width: 45vw;
+    }
+    .impact {
+        width: 45vw;
+        margin: 0 auto 0.7vw -3vw;
+    }
 }
 
 
