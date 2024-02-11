@@ -79,6 +79,32 @@ body
 .stats td:nth-child(2) {
     padding-left: 370px; 
 }
+.mission {
+  position: relative;
+}
+.mission img {
+  width: 100vw;
+  height: 20vw;
+}
+.missiontxt {
+  position: absolute;
+  top: 3.3vw;
+  left: 4vw;
+  color: white;
+}
+.missiontxt h2 {
+  font-family: 'Antonio', sans-serif;
+  font-weight: bold;
+  font-size: 3.7vw;
+  padding-bottom: 1vw;
+}
+.missiontxt p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.3vw;
+  padding-right: 13vw;
+}
+
 
 
 /*layout 3,4,5*/
@@ -154,30 +180,45 @@ font-weight:200;
 font-size: 1vw;
 }
 }
+.elevate {
+  position: relative;
+}
+.elevate img {
+  width: 100vw;
+  height: auto;
+}
+.contactlink {
+  position: absolute;
+  bottom: 8vw;
+  right: 4.5vw;
+}
+.contactlink img {
+  width: 10vw;
+  height: auto;
+}
+
 
 /*layout 6*/
 .layout6 {
   position: relative;
 }
 .layout6_img {
-  padding-top: 2%;
   width: 100vw;
-  height: auto; 
 }
 .layout6 a{
   position: absolute;
-  bottom: 12%;
-  left: 10%;
+  bottom: 3vw;
+  left: 10.1vw;
   color: #1F1F3D;
   text-decoration: none;
-  padding: 0.7% 3.7%; 
+  padding: 0.35vw 1.5vw; 
   border: 3px solid #1F1F3D;
 }
 .explore {
   font-family: 'Antonio', sans-serif;
   font-weight: bold;
   border: #1F1F3D;
-  font-size: 180%;
+  font-size: 1.8vw;
 }
 
 
