@@ -40,14 +40,14 @@ class Footer extends HTMLElement {
             text-decoration: none;
             color: white;
             margin-left: 3%;
-            font-size: 180%;
-            font-family: 'Antonio', sans-serif;
+            font-size: 1.5vw;
+            font-family: 'Alata', sans-serif;
             line-height: 100%;
           }
           .right-column h2 {
             margin-bottom: 10px;
-            font-family: 'League Spartan', sans-serif;
-            font-weight: bold;
+            font-family: 'Alata', sans-serif;
+            color: #FFCA04;
           }
           .right-column a {
             color: white;
@@ -66,35 +66,75 @@ class Footer extends HTMLElement {
           .fa-square-twitter {
             color: #1B9DF0;
           }
+          .abs_div1 {
+            display:inline-block;
+            font-family: 'Alata', sans-serif;
+            color: white;
+            font-size:1vw;
+            padding: 1vw 0 6vw 5.8vw;
+          }
+          .abs_div2 {
+            display:inline-block;
+            font-family: 'Alata', sans-serif;
+            color: white;
+            font-size:1vw;
+            padding: 1vw 0 6vw 30vw;
+          }
+          .logoimg {
+            display:inline-block;
+          }
+          .reach {
+            display:inline-block;
+            padding: 0 0 0 64.5vw;
+            font-family: 'Alata', sans-serif;
+            color: white;
+            font-size:1vw;
+          }
         </style>
 
         <footer>
         <!--footer-->
 <div class="footer_div">
-   <div>
+   <div class="logoimg">
       <img src="assets/images/logo (2).png" alt="logo">
+   </div>
+   <div class="reach">
+      <p>Feel free to reach out with any queries or concerns at<br>info@global-investors-forum.com<br>We're here to assist you!</p>
    </div>
    <div class="footer1">
       <p>CONNECTING WORLD THROUGH ONE PLATFORM.</p>
    </div>
    <div class="container_footer">
-      <div class="left-column">
+       <div class="left-column">
          <a href="index.html">HOMEPAGE</a>
          <a href="whoweare.html">WHO WE ARE</a>
          <a href="whatweproduce.html">WHAT WE PRODUCE</a>
          <a href="membership.html">GIF MEMBERSHIP</a>
          <a href="contact.html">CONTACT US</a>
        </div>
+       <div class="left-column">
+         <a href="GAISingif/index.html">GAIS</a>
+         <a href="GAISingif/conference.html">CONFERENCES</a>
+         <a href="GAISingif/award.html">AWARD CEREMONY</a>
+         <a href="GAISingif/meet.html">GLOBAL INVESTORS MEET</a>
+         <a href="GAISingif/contact.html">TICKETS</a>
+       </div>
        <div class="right-column">
-         <h2>CONNECT WITH US</h2>
+         <h2>FOLLOW US</h2>
          <div class="social-logos">
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-regular fa-envelope"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
             <a href="#"><i class="fa-sharp fa-solid fa-m"></i></a>
-            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+            <i class="fa-brands fa-square-twitter" style="color: #ffffff;"></i>
+            <a href="#"><i class="fa-regular fa-envelope"></i></a>
          </div>
        </div>
    </div>
+   <div class="abs_div1">
+      <p>GLOBAL INVESTORS FORUM <i class="fa-regular fa-copyright"></i> 2024 ALL RIGHTS RESERVED</p>
+    </div>
+    <div class="abs_div2">
+      <p>PRIVACY POLICY | GENERAL TERMS AND CONDITIONS</p>
+    </div>
 </div>
         </footer>
       `;
