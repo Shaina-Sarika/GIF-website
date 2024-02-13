@@ -113,11 +113,11 @@ class Footer extends HTMLElement {
          <a href="contact.html">CONTACT US</a>
        </div>
        <div class="left-column">
-         <a href="GAISingif/index.html">GAIS</a>
-         <a href="GAISingif/conference.html">CONFERENCES</a>
-         <a href="GAISingif/award.html">AWARD CEREMONY</a>
-         <a href="GAISingif/meet.html">GLOBAL INVESTORS MEET</a>
-         <a href="GAISingif/contact.html">TICKETS</a>
+         <a href="GAIS/index.html">GAIS</a>
+         <a href="GAIS/conference.html">CONFERENCES</a>
+         <a href="GAIS/award.html">AWARD CEREMONY</a>
+         <a href="GAIS/meet.html">GLOBAL INVESTORS MEET</a>
+         <a href="GAIS/contact.html">TICKETS</a>
        </div>
        <div class="right-column">
          <h2>FOLLOW US</h2>
